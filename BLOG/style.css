@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto=Lobster=RocknRoll+One:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Lobster&display=swap");
+
+body {
+  margin: 0px;
+  font-family: "Roboto";
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Chango";
+  color: #a75656;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: grey;
+  height: 65vh;
+  background-image: url("https://res.cloudinary.com/tempest/image/upload/c_limit%2Ccs_srgb%2Cq_100%2Cw_3000/MTU5ODU3NjQ0NDQ4Nzg1NTY1.jpg");
+  background-size: cover;
+}
+
+#wave {
+  position: absolute;
+  bottom: -1px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.border-white {
+  border: 2px solid white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.text-white {
+  color: white;
+}
+
+.container {
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 50px;
+  max-width: 1000px;
+}
+
+.rtg-photo {
+  height: 150px;
+  width: 200px;
+  border-radius: 50px;
+}
+.rtg-text {
+  height: 150px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.bg-photo-10 {
+  background-image: url("https://www.alibabuy.com/photos/library/1500/10261.jpg");
+  background-size: cover;
+  backrground-position: center;
+}
+
+.bg-photo-9 {
+  background-image: url("https://www.alibabuy.com/photos/library/1500/13525.jpg");
+  background-size: cover;
+  backrground-position: center;
+}
+
+.bg-photo-8 {
+  background-image: url("https://www.alibabuy.com/photos/library/1500/12847.jpg");
+  background-size: cover;
+  backrground-position: center;
+}
+
+.bg-photo-7 {
+  background-image: url("https://www.alibabuy.com/photos/library/1500/13519.jpg");
+  background-size: cover;
+  backrground-position: center;
+}
+
+.bg-photo-6 {
+  background-image: url("https://www.alibabuy.com/photos/library/1500/13521.jpg");
+  background-size: cover;
+  backrground-position: center;
+}
+
+.bg-photo-5 {
+  background-image: url("https://www.alibabuy.com/photos/library/1500/13523.jpg");
+  background-size: cover;
+  backrground-position: center;
+}
+
+.bg-photo-4 {
+  background-image: url("https://www.alibabuy.com/photos/library/1500/13522.jpg");
+  background-size: cover;
+  backrground-position: center;
+}
+
+.bg-photo-3 {
+  background-image: url("https://www.alibabuy.com/photos/library/1500/13524.jpg");
+  background-size: cover;
+  backrground-position: center;
+}
+
+.bg-photo-2 {
+  background-image: url("https://www.alibabuy.com/photos/library/1500/11045.jpg");
+  background-size: cover;
+  backrground-position: center;
+}
+
+.bg-photo-1 {
+  background-image: url("https://www.alibabuy.com/photos/library/1500/12992.jpg");
+  background-size: cover;
+  backrground-position: center;
+}
+
+.card-down {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  padding: 30px;
+}
+
+.card-link {
+  height: 100px;
+  width: 400px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a75656;
+  color: white;
+  font-size: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
