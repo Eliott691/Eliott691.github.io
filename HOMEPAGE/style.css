@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+
+body {
+  margin: 0px;
+  font-family: roboto;
+  background-color:#f0e4d72e ;
+
+}
+
+h1 {
+  font-family: Dela Gothic One;
+  font-size: 40px;
+  color: #ff7171;
+}
+
+
+h2 {
+  font-family: Dela Gothic One;
+  font-size: 25px ; 
+  font-weight: 700;
+  color: #ea9292;
+}
+
+
+
+h3
+{font-weight : 900; 
+color : #21a7b7;}
+
+
+h4{font-weight : 900;
+font-size:24px}
+
+section {
+  padding: 60px 100px;
+}
+
+a {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid;
+}
+
+.bg-white {background-color:white}
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+   ; height:400px;
+}
+
+#hero img {
+  height: 200px;
+}
+
+
+.btn{
+  display : inline-block; 
+  border-radius : 5px; 
+  padding: 8px; 
+  background-color: #21a7b7
+   ; color : white; 
+ ;font-weight: 500;
+  cursor:pointer; 
+}
+
+.btn:hover {background-color: #3cc0d0}
+
+
+/*NOS PRODUITS*/
+
+.card-product {
+  width: 20%;
+margin-bottom: 30px 
+ ; border-radius:5px;
+ margin : 20px;
+  
+}
+
+
+
+.card-product img {
+  
+  width:100%;
+  padding: 10px;
+ 
+}
+
+
+/* A LA UNE = NOS MARQUES*/
+
+.card {
+  width: 30%;
+  height : 100px; 
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.card-container{
+  display:flex;
+  justify-content: space-between; 
+  align-items : space-between; 
+   
+  
+  
+}
+
+.card h3 {color:white;
+text-shadow: 2px 2px 2px #21a7b7 ;}
+
+.bg-photo1{
+  background-image: url('https://www.laboutiqueharibo.fr/dw/image/v2/BFFT_PRD/on/demandware.static/-/Sites-haribo-master-catalog/default/dw73d170b0/food/vrac/102069%20dragibus%20original%20sachet%20vrac%202kg.png?sw=240&sh=240');
+  background-size: cover;
+  background-position:center;
+
+}
+
+.bg-photo2{
+  background-image: url("https://www.laboutiqueharibo.fr/dw/image/v2/BFFT_PRD/on/demandware.static/-/Sites-haribo-master-catalog/default/dwd4d96ec9/food/vrac/102064%20tagada%20l'original%20sachet%20vrac%201,5kg.png?sw=460&sh=460");
+  background-size: cover;
+  background-position:center;
+
+}
+
+.bg-photo3{
+  background-image: url("https://www.laboutiqueharibo.fr/dw/image/v2/BFFT_PRD/on/demandware.static/-/Sites-haribo-master-catalog/default/dwda276df4/food/vrac/103413%20les%20schtroumpfs%20pik%20sachet%20vrac%202kg.png?sw=460&sh=460");
+  background-size: cover;
+  background-position:center;
+
+}
+
+
+.bg-photo4{
+  background-image: url("https://www.laboutiqueharibo.fr/dw/image/v2/BFFT_PRD/on/demandware.static/-/Sites-haribo-master-catalog/default/dwd23aab11/food/vrac/102079%20happy%20cola%20sachet%20vrac%202kg.png?sw=460&sh=460");
+  background-size: 120%;
+  background-position:center;
+
+}
+
+.bg-photo5{
+  background-image: url("https://www.laboutiqueharibo.fr/dw/image/v2/BFFT_PRD/on/demandware.static/-/Sites-haribo-master-catalog/default/dwf1c9664f/food/vrac/102080%20croco%20sachet%20vrac%202kg.png?sw=460&sh=460");
+  background-size: cover;
+  background-position:center;
+
+}
+
+.bg-photo6{
+  background-image: url("https://www.laboutiqueharibo.fr/dw/image/v2/BFFT_PRD/on/demandware.static/-/Sites-haribo-master-catalog/default/dw50663970/food/vrac/122076%20banan's%20sachet%20vrac%201,5kg.png?sw=460&sh=460");
+  background-size: cover;
+  background-position:center;
+
+}
+
+
+
+
+
+
+
+
+/*LES ACCESSOIRES*/
+
+.card-part{
+  display : flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom:18px; 
+  background-color:white; 
+ padding:10px; 
+  height:200px; 
+
+}
+ 
+.card-part img {height : 140px}
+
+.text-container {flex-grow : 1;
+padding : 20px; }
